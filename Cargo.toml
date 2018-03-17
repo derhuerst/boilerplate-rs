@@ -1,0 +1,16 @@
+[package]
+name = "todo-name"
+version = "0.1.0"
+authors = ["Jannis R <mail@jannisr.de>"]
+repository = "https://github.com/derhuerst/todo-name.git"
+homepage = "https://github.com/derhuerst/todo-name"
+license = "ISC"
+readme = "README.md"
+description = "todo-description"
+keywords = ["todo-keywords"]
+exclude = [".travis.yml"]
+
+[dependencies]
+
+[badges]
+travis-ci = { repository = "derhuerst/todo-name" }
