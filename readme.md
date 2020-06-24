@@ -2,7 +2,7 @@
 
 **todo-description** I'm a Rust beginner, so the code might be unelegant. 🙈
 
-[![crates.io version](https://img.shields.io/crates/v/todo-name.svg)](https://crates.io/crates/todo-name)
+[![crates.io version](https://img.shields.io/crates/v/todo_name_lib.svg)](https://crates.io/crates/todo_name_lib)
 [![build status](https://api.travis-ci.org/derhuerst/todo-name.svg?branch=master)](https://travis-ci.org/derhuerst/todo-name)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/todo-name.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
@@ -14,7 +14,7 @@
 Put this into your `Cargo.toml`:
 
 ```toml
-todo-name = "0.1.0"
+todo_name_lib = "0.1.0"
 ```
 
 

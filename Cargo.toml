@@ -1,6 +1,7 @@
 [package]
-name = "todo-name"
+name = "todo_name_lib"
 version = "0.1.0"
+edition = "2018"
 authors = ["Jannis R <mail@jannisr.de>"]
 repository = "https://github.com/derhuerst/todo-name.git"
 homepage = "https://github.com/derhuerst/todo-name"
