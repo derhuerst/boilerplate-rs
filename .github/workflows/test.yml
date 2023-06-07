@@ -21,4 +21,4 @@ jobs:
       - name: cargo test
         run: cargo test
       - name: cargo build
-        run: cargo build
+        run: cargo build --all-features

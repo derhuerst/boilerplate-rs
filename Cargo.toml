@@ -12,6 +12,3 @@ keywords = ["todo-keywords"]
 exclude = [".github"]
 
 [dependencies]
-
-[badges]
-travis-ci = { repository = "derhuerst/todo-name" }
