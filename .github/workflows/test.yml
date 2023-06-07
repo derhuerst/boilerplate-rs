@@ -1,0 +1,24 @@
+name: build & test
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rust-toolchain: ['stable', 'beta']
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: set up Rust ${{ matrix.node-version }}
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: ${{ matrix.node-version }}
+
+      - name: cargo test
+        run: cargo test
+      - name: cargo build
+        run: cargo build

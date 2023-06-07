@@ -9,7 +9,7 @@ license = "ISC"
 readme = "README.md"
 description = "todo-description"
 keywords = ["todo-keywords"]
-exclude = [".travis.yml"]
+exclude = [".github"]
 
 [dependencies]
 
